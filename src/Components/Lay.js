@@ -1,15 +1,11 @@
-import React from 'react'
+import React from "react";
 
 const Lay = (props) => {
   return (
     <div>
-
-        <div>toolbar</div>
-        <main>
-            {props.children}
-        </main>
+      <main>{props.children}</main>
     </div>
-  )
-}
+  );
+};
 
-export default Lay
+export default Lay;

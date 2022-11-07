@@ -6,7 +6,7 @@ import BurgerBuilder from './Containers/BurgerBuilder'
 
 const App = () => {
   return (
-    <div>App
+    <div>
         <Lay />
         <BurgerBuilder />
         
