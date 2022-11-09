@@ -7,9 +7,9 @@ import BurgerBuilder from './Containers/BurgerBuilder'
 const App = () => {
   return (
     <div>
-        <Lay />
+        <Lay >
         <BurgerBuilder />
-        
+        </Lay >
     </div>
   )
 }
