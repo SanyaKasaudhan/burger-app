@@ -8,7 +8,7 @@ const App = () => {
   return (
     <div>
         <Lay >
-          <Toolbar />
+          {/* <Toolbar /> */}
           {/* <Toolbar /> */}
         <BurgerBuilder />
         </Lay >

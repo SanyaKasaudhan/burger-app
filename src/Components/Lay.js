@@ -1,8 +1,9 @@
 import React from "react";
-
+import Toolbar from "./Navigation/Toolbar/Toolbar";
 const Lay = (props) => {
   return (
-    <div>
+    <div style={{marginTop:"72px"}}>
+      <Toolbar />
       <main>{props.children}</main>
     </div>
   );
