@@ -9,7 +9,7 @@ const App = () => {
     <div>
         <Lay >
           <Toolbar />
-          <Toolbar />
+          {/* <Toolbar /> */}
         <BurgerBuilder />
         </Lay >
     </div>
